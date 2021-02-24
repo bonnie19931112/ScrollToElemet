@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體;
+}
+
+nav{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100px;
+    // 固定導覽列
+    position: fixed;
+    width: 100%;
+
+    a {
+        padding: 30px;
+        // 網頁連結無底線
+        text-decoration: none;
+        // 連結置中
+        display: inline-block;
+        color: #fff;
+        font-size: 30px;
+    }
+}
+
+section {
+    height: 100vh;
+    text-align: center;
+    line-height: 100vh;
+    font-size: 80px;
+    color: #fff;
+
+    &:nth-of-type(odd) {
+        background: lightblue;
+    }
+    &:nth-of-type(even) {
+        background: gray;
+    }
+}
+
+
